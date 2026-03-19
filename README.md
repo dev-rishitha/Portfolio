@@ -18,7 +18,7 @@ Final-year B.Tech Computer Science student at Stanley College of Engineering and
 | Layer | Technologies |
 |---|---|
 | Frontend | HTML, CSS, JavaScript, Vue.js, React.js, Tailwind CSS |
-| Backend | Laravel, PHP, RESTful APIs |
+| Backend | Laravel, PHP, Node.js, Express, RESTful APIs |
 | Database | MySQL, MariaDB |
 | Tools | Git, GitHub, Postman, VS Code, Vercel, Laravel Herd |
 
