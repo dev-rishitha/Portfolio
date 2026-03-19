@@ -26,23 +26,22 @@ Final-year B.Tech Computer Science student at Stanley College of Engineering and
 
 ## Projects
 
-### 🎯 Job Application Tracker
-Full-stack SaaS-style tracker built with Laravel REST API + Vue.js.
-- Inline status updates, edit-in-place, search & filter
-- Real-time stats dashboard, follow-up date alerts
-- MySQL database, Axios API calls
-- **Stack:** Laravel · Vue.js · MySQL · PHP
-
-### 🧠 Interactive Memory Card Game
-Responsive React app with 3 difficulty levels, real-time timer, move tracking, and win detection.
-- **Live:** [interactive-memory-card-game.vercel.app](https://interactive-memory-card-game.vercel.app)
-- **Stack:** React.js · JavaScript (ES6+) · CSS Grid
-
 ### 🚖 Taxi Application Admin Panel
 Full-stack admin dashboard for managing a taxi booking platform.
 - Driver & vehicle management, fare config, live GPS tracking via Leaflet.js
 - Analytics with Chart.js
 - **Stack:** Laravel · PHP · Blade · Tailwind · MySQL · Leaflet.js
+
+### 🧑‍💼 Employee Management System (EMS)
+A full-stack Employee Management System built with React, Node.js/Express, and MariaDB.
+- Attendance tracking, leave management, and task monitoring with role-based access
+- Implemented secure authentication (JWT, bcrypt) and REST APIs.
+- **Stack:** Node.js · React.js (Vite) · Express · MariaDB · bcryptjs
+
+### 🧠 Interactive Memory Card Game
+Responsive React app with 3 difficulty levels, real-time timer, move tracking, and win detection.
+- **Live:** [interactive-memory-card-game.vercel.app](https://interactive-memory-card-game.vercel.app)
+- **Stack:** React.js · JavaScript (ES6+) · CSS Grid
 
 ---
 
