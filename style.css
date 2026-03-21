@@ -514,7 +514,6 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 22px;
-  max-width: 700px; 
 }
 
 .exp-card {
