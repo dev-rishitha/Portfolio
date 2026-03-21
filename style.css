@@ -747,21 +747,48 @@ h1, h2, h3, h4 {
 =========================== */
 .bottom-nav {
   position: fixed;
-  bottom: 22px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(20,20,20,0.95);
   backdrop-filter: blur(20px);
   border: 1px solid var(--border-strong);
-  padding: 12px 28px;
+  padding: 8px;
   border-radius: 100px;
   display: flex;
-  gap: 26px;
+  gap: 4px;
   z-index: 100;
 }
-.bottom-nav a { text-decoration: none; }
-.bottom-nav i { font-size: 18px; color: var(--text-3); cursor: pointer; transition: 0.2s; display: block; }
-.bottom-nav i:hover { color: var(--accent); }
+
+.nav-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 100px;
+  transition: all 0.2s;
+  color: var(--text-3);
+}
+
+.nav-pill i {
+  font-size: 16px;
+  display: block;
+  transition: 0.2s;
+}
+
+.nav-pill span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.nav-pill:hover {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
 
 /* ===========================
    RESPONSIVE
