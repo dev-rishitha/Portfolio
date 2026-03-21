@@ -575,6 +575,30 @@ h1, h2, h3, h4 {
   color: #cbd5e1;
 }
 
+.exp-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 4px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.exp-tags span {
+  background: rgba(99,102,241,0.1);
+  border: 1px solid rgba(99,102,241,0.2);
+  color: #818cf8;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
 /* Projects */
 .project-list {
   display: flex;
